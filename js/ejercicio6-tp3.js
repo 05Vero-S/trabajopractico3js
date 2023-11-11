@@ -5,7 +5,7 @@ const ladoB = parseInt(prompt("Ingrese otro valor del lado B del rectángulo: ")
 
 function perimetro(ladoA,ladoB){
     let p= 2*(ladoA + ladoB);
-    document.write(`El perímetro del rectangulo es ${p}`);
+    document.write(`El perímetro del rectángulo es ${p}`);
 }
 
 perimetro(ladoA,ladoB);
